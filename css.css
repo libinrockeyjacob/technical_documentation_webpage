@@ -1,0 +1,51 @@
+@media (prefers-reduced-motion:no-preference){
+    scroll-behavior: smooth;
+  }
+  .main-section{
+    margin-left: 20%;
+  }
+  nav{
+    height: 100%;
+    background: grey;
+    width: 350px;
+    position:fixed;
+  }
+  header{
+    font-weight: bold;
+  font-size: 23px; 
+  padding: 20px 0px;
+  text-align: left;
+  }
+  p{
+    margin: 23;
+    font-weight: 500;
+  }
+  code{
+    background: lightgrey;
+    display: inline-block;
+  }
+  *{
+    margin: 0;
+    padding:0;
+  }
+  
+  nav  ul li{
+    font-size: 20;
+    padding: 45;
+    border-bottom: 2px dashed blue;  
+    list-style-type: none;
+    margin-left: 30;
+  }
+  
+  nav ul li:hover{
+  background: white;
+  }
+  nav ul li:hover a{
+    color:black;
+  }
+  a:visited{
+  color: pink;
+  }
+  a:link{
+    color:pink;
+  }
